@@ -19,7 +19,7 @@ from typing import List, Dict
 import requests  # Library that simplifies making HTTP requests (Easy http info grabs)
 from bs4 import BeautifulSoup  # Parses HTML and XML documents
 
-
+/**
 def parse_ability_section(html: str) -> Dict[str, object]:
     """
     Parse a single ability block from League of Legends patch notes.
